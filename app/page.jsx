@@ -1,14 +1,12 @@
-import TopicList from '@/components/TopicList'
+import TopicsList from '@/components/TopicsList'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <>
-      <h1>WebDev Topics</h1>
+      <h1>Web Security Programing</h1>
       <p>MongoDB CRUD Examples</p>
-      <TopicList />
-      <TopicList />
-      <TopicList />
+      {/* <TopicsList /> */}
     </>
   )
 }
