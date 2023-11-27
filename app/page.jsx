@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <h1>Web Security Programing</h1>
       <p>MongoDB CRUD Examples</p>
-      {/* <TopicsList /> */}
+      <TopicsList />
     </>
   )
 }
