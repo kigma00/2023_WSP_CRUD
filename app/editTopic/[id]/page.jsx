@@ -2,7 +2,7 @@ import React from 'react'
 import EditTopicForm from '@/components/EditTopicForm'
 
 const getTopicById = async (id) => {
-  const apiUrl = process.env.APT_URL
+  const apiUrl = process.env.API_URL
   try {
     const res = await fetch(`${apiUrl}/api/topics/${id}`, {
       cache: 'no-store',
